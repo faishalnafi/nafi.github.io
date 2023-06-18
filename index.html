@@ -1,28 +1,53 @@
-<!DOCTYPE html>
-<html>
-<?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	$uri .= $_SERVER['support.nafii.my.id/maintenance'];
-	header('Location: '.$uri.'support.nafii.my.id/maintenance');
-	exit;
-?>
-<head>
-  <title>Faishal Nafi'</title>
-  <meta content="Halaman ini sedang dalam perbaikan" name="description">
-  <meta content="" name="keywords">
+<html lang="en">
 
-  <!-- Favicons -->
-  <link href="https://www.support.nafii.my.id/napikk.jpg" rel="icon">
-  <link href="https://www.support.nafii.my.id/napikk.jpg" rel="apple-touch-icon">
+<head>
+    <meta charset="utf-8">
+
+    <title>ServerHost is undergoing maintenance</title>
+    <meta http-equiv="refresh" content="60">
+    <meta name="description" content="Maintenance screen">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link href="https://naficdn.my.id/icon/service.png" rel="icon">
+    <link href="https://naficdn.my.id/icon/service.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            background: url(./kemdikbud.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 
 </head>
 
 <body>
-    #Maintenance
+    <div class=e1457_4616>
+        <div class="e1457_4617"></div>
+        <div class=e1457_4634>
+            <div class=e1457_4635>
+                <div class=e1457_4636>
+                    <div class=e1457_4637>
+                        <div class=e1457_4638>
+                            <div class=e1457_4639>
+                                <div class="e1457_4640"></div>
+                                <div class="e1457_4641"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="e1457_4642">Scheduled maintenance</span>
+                    <span class="e1457_4643"></span>
+                </div>
+                <span class="e1457_4644">
+                    Expected downtime is at most 30 minutes. We will be using this time to add more capacity to our
+                    infrastructure and improve our overall service.
+                </span>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
