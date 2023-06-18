@@ -1,0 +1,29 @@
+<?php
+	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
+		$uri = 'https://';
+	} else {
+		$uri = 'http://';
+	}
+	$uri .= $_SERVER['support.nafii.my.id/maintenance'];
+	header('Location: '.$uri.'support.nafii.my.id/maintenance');
+	exit;
+?>
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <title>Faishal Nafi'</title>
+  <meta content="Halaman ini sedang dalam perbaikan" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="https://www.support.nafii.my.id/napikk.jpg" rel="icon">
+  <link href="https://www.support.nafii.my.id/napikk.jpg" rel="apple-touch-icon">
+
+</head>
+
+<body>
+    #Maintenance
+</body>
+
+</html>
